@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(184, 241, 237);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+aside{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgb(217, 253, 249);
+    border-radius: 20px;
+    padding-top: 2rem;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid lightsalmon; */
+}
+.image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.p1{
+    font-size: 20px;
+    font-weight: 750;
+    color: rgb(133,154,174);
+    text-align: center;
+}
+.p2{
+    font-size: 15px;
+    text-align: center;
+    color: rgba(133,154,174, 0.6);
+    font-weight: 500;
+}
+.content{
+    margin-top: 2rem;
+}
+.div1, .div2, .div3,.div4{
+    display: flex;
+    gap: 7%;
+    font-size: 22px;
+    font-weight: 500;
+    color:  rgb(133,154,174);
+    margin-left: 6rem;
+    padding: 7% 0;
+    /* border: 2px solid blue; */
+}
+span{
+    color: rgb(91, 162, 196);
+}
+#icon1, #icon2, #icon3, #icon4{
+    font-size: 30px;
+}
+
+.footer{
+    width: 80%;
+    height: 20%;
+    border-radius: 20px;
+    padding: 6%;
+    margin: 0 auto;
+    display: flex;
+    /* border: 2px solid lightgreen; */
+}
+.p3{
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+    opacity: 0.8;
+    width: 40%;
+    line-height: 26px;
+    /* border: 2px solid black; */
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(30deg,rgba(140, 231, 202, 0.979), rgba(130,203,205,0.7));
+}
+main{
+    width: 75%;
+    height: 100%;
+    padding: 4rem;
+    float: right;
+    /* border: 2px solid blue; */
+}
+h1{
+    color: rgb(102,130,162);
+    font-size: 38px;
+}
+.bar1{
+    /* border: 2px solid blue; */
+    width: 33%;
+    height: 1.3rem;
+    margin-top: 1%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(233,250,248), rgb(224,248,246));
+}
+.hero{
+    /* border: 2px solid lightcoral; */
+    height: 80%;
+    width: 90%;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card1, .card2, .card3{
+    /* border: 2px solid goldenrod; */
+    width: 100%;
+    height: 30%;
+    border-radius: 15px;
+    background-color: rgb(227,248,246);
+    box-shadow: 2px 2px 15px  rgb(179, 174, 174);
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    height: 100%;
+    width: 8%;
+    border-radius: 10px;
+}
+.p4, .percent{
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 0.4;
+}
+.p5{
+    font-size: 15px;
+    opacity: 0.4;
+}
+.bar2{
+    width: 100%;
+    height: 1.2rem;
+    margin-top: 1%;
+    border-radius: 10px;
+    background: linear-gradient(30deg,rgba(140, 231, 202, 0.979), rgba(130,203,205,0.7));
+}
